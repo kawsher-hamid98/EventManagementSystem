@@ -14,30 +14,47 @@ import { PageServiceService } from 'src/app/servicesEvent/page-service.service';
   styleUrls: ['./general-event.component.css']
 })
 export class GeneralEventComponent implements OnInit {
-
   generalEvent: any;
   pager: any = {};
   pagedItems: any[];
-  myControl = new FormControl();
-  filteredOptions: Observable<any>;
+  page = 4;
+ 
 
-  constructor(private event1: GeneralEventServiceService, private pageService:PageServiceService, private token: TokenStorageServiceService, private router: Router ) { }
+  constructor(private eventService: GeneralEventServiceService,
+     private token: TokenStorageServiceService, private router: Router, private pageService:PageServiceService ) {
+      // var urlParams = [];
+      // window.location.search.replace("?", "").split("&").forEach(function (e, i) {
+      //     var p = e.split("=");
+      //     urlParams[p[0]] = p[1];
+      // });
+  
+      // console.log(urlParams["loaded"]);
+  
+      // if(urlParams["loaded"]) {}else{
+  
+      //     let win = (window as any);
+      //     win.location.search = '?loaded=1';
+      // }
+      }
 
   ngOnInit() {
-    this.event1.getAllGeneralEvents()
+
+    this.eventService.getAllGeneralEvents()
     .subscribe( data => {
       this.generalEvent = data;
+      this.setPage(1)
     });
-  }
+
+    }
 
   setPage(page: number) {
+
     this.pager = this.pageService.getPager(this.generalEvent.length, page);
     this.pagedItems = this.generalEvent.slice(this.pager.startIndex, this.pager.endIndex + 1);
 }
 
-
   delete(event) {
-    this.event1.deleteEvent(event.id)
+    this.eventService.deleteEvent(event.id)
     .subscribe( data => {
       this.generalEvent.splice(this.generalEvent.indexOf(event), 1);
     },error => {
@@ -45,15 +62,14 @@ export class GeneralEventComponent implements OnInit {
     })
   }
 
-  edit(event) {
-    this.event1.updateEvent(event)
-    .subscribe(data => {
-      this.router.navigate(['/createGeneralEvent'])
-    })
-  }
+  // edit(event) {
+  //   this.eventService.updateEvent(event)
+  //   .subscribe(data => {
+  //     this.router.navigate(['/createSpecialEvent'])
+  //   })
+  // }
 
-  saveEvent() {
-    this.router.navigate(['/createGeneralEvent'])
-  }
-
+  // saveEvent() {
+  //   this.router.navigate(['/createSpecialEvent'])
+  // }
 }

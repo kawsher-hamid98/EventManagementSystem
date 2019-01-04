@@ -66,17 +66,23 @@ h3 {
       width: 9rem
   }
 
-  .page-config {
-    top: 48rem;
-    left: 40%;
+
+  ul {
+    margin-top: 3rem;
+
 }
 
-.page-config a {
-    width: 100%;
-    background-color:  #f2f2f2;
-    font-size: 1.5rem;
-    font-weight:400;
-    cursor: pointer;
-    color: #333333;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+.pagination a {
+  background-color:  #f2f2f2;
+  font-size: 1.3rem;
+  font-weight:400;
+  padding: 0.5rem;
+  cursor: pointer;
+  color: #333333;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+}
+
+.pagination a:hover {
+  background-color:  #d9d9d9;
+
 }

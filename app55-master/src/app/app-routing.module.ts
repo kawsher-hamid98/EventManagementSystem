@@ -21,6 +21,7 @@ import { PaymentComponent } from './payment/payment.component';
 import { ConfirmationComponent } from './confirmation/confirmation.component';
 
 const routes: Routes = [
+
   {path: '', redirectTo: 'generalEvent', pathMatch: 'full' },
   {path: 'home', component: HomeComponent},
   {path: 'login', component: LoginComponent},
@@ -48,6 +49,7 @@ const routes: Routes = [
 
   {path: 'createGeneralEvent', component: CreateEventComponent, canActivateChild: [AuthGuard],
   children: [{path: '',component: HomeComponent}]},
+  
 ]
 
 
