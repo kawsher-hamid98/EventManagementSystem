@@ -3,54 +3,48 @@
         <div class="heading">
             <h3 class="text-center">Register</h3>
         </div>
+
         <div class="form-group">
-            <!-- <label for="username">Your username</label> -->
             <div class="input-group">
                 <div class="input-group-prepend">
                     <span class="input-group-text"><i class="far fa-user"></i></span>
                 </div>
-                <input [(ngModel)]="user.username" required #username="ngModel" [class.is-invalid]="username.invalid && username.touched" class="form-control" type="text" name="username" placeholder="Username">                
+                <input [(ngModel)]="user.username" required #username="ngModel" [class.is-invalid]="username.invalid && username.touched" class="form-control" type="text" name="username" placeholder="Enter Username">                
             </div>
         <small class="text-danger" [class.d-none]="username.valid || username.untouched">Username is required</small>    
         </div>
 
         <div class="form-group">
-            <!-- <label for="fullName">Your fullname</label> -->
             <div class="input-group">
                 <div class="input-group-prepend">
                     <span class="input-group-text"><i class="fas fa-user"></i></span>
                 </div>
-                <input [(ngModel)]="user.name" required #fullName="ngModel" [class.is-invalid]="fullName.invalid && fullName.touched" class="form-control" type="text" name="fullName" placeholder="Fullname">    
+                <input [(ngModel)]="user.name" required #name="ngModel" [class.is-invalid]="name.invalid && name.touched" class="form-control" type="text" name="name" placeholder="Enter Fullname">    
             </div>
-            <small class="text-danger" [class.d-none]="fullName.valid || fullName.untouched">Fullname is required</small>    
+            <small class="text-danger" [class.d-none]="name.valid || name.untouched">Fullname is required</small>    
         </div>
 
         <div class="form-group">
-            <!-- <label for="email">Your email</label> -->
             <div class="input-group">
                 <div class="input-group-prepend">
                     <span class="input-group-text"><i class="fas fa-envelope"></i></span>
                 </div>
-                <input [(ngModel)]="user.email" required #email="ngModel" [class.is-invalid]="email.invalid && email.touched" class="form-control" type="email" name="email" placeholder="Email">
+                <input [(ngModel)]="user.email" required #email="ngModel" [class.is-invalid]="email.invalid && email.touched" class="form-control" type="email" name="email" placeholder="Enter Email">
             </div>
             <small class="text-danger" [class.d-none]="email.valid || email.untouched">Email is required</small>    
         </div>
 
         <div class="form-group">
-            <!-- <label for="password">Your password</label> -->
             <div class="input-group">
                 <div class="input-group-prepend">
                 <span class="input-group-text"><i class="fas fa-unlock"></i></span>
                 </div>
-                <input [(ngModel)]="user.password" required #password="ngModel" [class.is-invalid]="password.invalid && password.touched" class="form-control" type="password" name="password" placeholder="Password">
+                <input [(ngModel)]="user.password" required #password="ngModel" [class.is-invalid]="password.invalid && password.touched" class="form-control" type="password" name="password" placeholder="Enter Password">
             </div>
             <small class="text-danger" [class.d-none]="password.valid || password.untouched">Password is required</small>    
         </div>
-
-        <div *ngIf="errorMsg" class="form-group">
-            <small class="text-danger">Username or email already exists</small>
-        </div>
-
+        
+        <p class="text-danger text-center" *ngIf="error">Username or Email already exists</p>    
         <button [disabled]="userForm.form.invalid" class="btn btn-success" type="submit">Register</button>
     </form>
 </div>
