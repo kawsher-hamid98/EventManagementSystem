@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8389f092-9051-47b6-af06-660addce988a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app55-master/src/app/app.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/../app55-master/src/app/app.component.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app55-master/src/app/components/register/register.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/../app55-master/src/app/components/register/register.component.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app55-master/src/app/components/register/register.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../app55-master/src/app/components/register/register.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app55-master/src/app/components/register/register.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../app55-master/src/app/components/register/register.component.ts" afterDir="false" />
-    </list>
+    <list default="true" id="8389f092-9051-47b6-af06-660addce988a" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -250,15 +243,15 @@
       <option name="presentableId" value="Default" />
       <updated>1546590243997</updated>
       <workItem from="1546590252043" duration="3681000" />
-      <workItem from="1546611482575" duration="1205000" />
+      <workItem from="1546611482575" duration="1566000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4886000" />
+    <option name="totallyTimeSpent" value="5247000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="754" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25340393" />
