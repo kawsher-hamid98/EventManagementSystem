@@ -1,0 +1,51 @@
+
+<div class="example-container mat-elevation-z8">
+  <div class="header text-center"><h4>User List</h4></div>
+  <div class="heading-underline"></div>
+  
+  <div class="example-header" class=" col-md-4">
+    
+       <mat-form-field>
+         <input matInput (keyup)="applyFilter($event.target.value)" placeholder="Search..">
+       </mat-form-field>
+    </div>
+  
+    <mat-table #table [dataSource]="dataSource" matSort>
+
+  
+        <ng-container matColumnDef="id">
+            <mat-header-cell *matHeaderCellDef mat-sort-header> User ID </mat-header-cell>
+            <mat-cell *matCellDef="let item">
+              {{item.id}}
+            </mat-cell>
+          </ng-container>
+  
+      <ng-container matColumnDef="name">
+          <mat-header-cell *matHeaderCellDef mat-sort-header> Name </mat-header-cell>
+          <mat-cell *matCellDef="let element"> {{element.name}} </mat-cell>
+      </ng-container>
+  
+      <ng-container matColumnDef="username">
+          <mat-header-cell *matHeaderCellDef> Username </mat-header-cell>
+         <mat-cell *matCellDef="let element"> {{element.username}} </mat-cell>
+      </ng-container>
+
+      <ng-container matColumnDef="email">
+          <mat-header-cell *matHeaderCellDef> Email </mat-header-cell>
+         <mat-cell *matCellDef="let element"> {{element.email}} </mat-cell>
+      </ng-container>
+
+      <ng-container matColumnDef="#">
+        <mat-header-cell *matHeaderCellDef mat-sort-header> # </mat-header-cell>
+        <mat-cell *matCellDef="let item">
+            <button mat-raised-button color="warn" (click)="confirmDelete(item)">Delete</button>
+        </mat-cell>
+      </ng-container>
+  
+      <mat-header-row *matHeaderRowDef="displayedColumns"></mat-header-row>
+      <mat-row *matRowDef="let row; columns: displayedColumns;" (click) = "rowClicked(row)" ></mat-row>
+    </mat-table>
+  
+    <mat-paginator [length]="5" [pageSize]="5" [pageSizeOptions]="[5, 10, 15]">
+    </mat-paginator>
+  </div>

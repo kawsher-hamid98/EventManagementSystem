@@ -1,0 +1,29 @@
+
+.container {
+    margin-top: 3rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+    background-color: #e6e6e6;
+    border-radius: 1rem;
+    padding: 2rem
+}
+
+.container p {
+    font-weight: 700;
+    font-size: 1.2rem;    
+    color: #505962;   
+}
+
+input{
+    height: 1.9rem;
+}
+
+.btn-warning {
+    margin-bottom: 2rem;
+    text-transform: uppercase;
+    width: 100%;
+}
+
+h4 {
+    margin-bottom: 2rem
+}
+

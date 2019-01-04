@@ -1,0 +1,45 @@
+
+<div class="container col-10 col-sm-8 col-md-4">
+
+  <form #paymentForm="ngForm" name="form">
+    <p class="text-center">Amount to be Paid {{specialEvent.price}} ৳</p>
+
+    <div class="form-group">
+      <input class="form-control" type="text" placeholder="Credit Card #" [(ngModel)]="cardNumber" name="cardNumber">    
+      <!-- <small class="text-danger" [class.d-none]="cardNumber.valid || cardNumber.untouched">Card number is required</small> -->
+    </div>
+
+    <!-- <div class="form-group">
+      <input class="form-control" type="text" placeholder="Expiration Month" name="expMonth">
+    </div> -->
+
+    <div class="form-group">
+      <select class="form-control" name="expMonth" type="number" placeholder="exp_month">
+          <option value="" disabled selected>Expiry Month</option>
+        <option *ngFor="let expMonth of expMonths">{{expMonth.month}}</option>
+      </select>
+    </div>
+
+    <div class="form-group">
+      <select class="form-control" name="expYear" type="number" placeholder="exp_month">
+          <option value="" disabled selected>Expiry Year</option>
+        <option *ngFor="let expYear of expYears">{{expYear.year}}</option>
+      </select>
+    </div>
+      
+
+
+    <!-- <div class="form-group">
+      <input class="form-control" type="text" placeholder="Expiration Year" name="expYear">
+    </div> -->
+
+    <div class="form-group">
+      <input class="form-control" type="text" placeholder="CVC" name="cvc">
+    </div>
+      
+    <button class="btn btn-warning" (click)="chargeCreditCard()">Complete Transaction</button>
+  </form>
+
+</div>
+
+

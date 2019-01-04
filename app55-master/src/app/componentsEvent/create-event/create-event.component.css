@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700');
+
+.heading-div {
+  color: white;
+  background-color: rgb(104, 99, 99);
+  border-radius: 0;  
+}
+
+.heading {
+  font-family: 'Lato', sans-serif;  
+  font-weight: 700;  
+  font-size: 2.2rem;
+  width: 100%;
+  max-width: 100%;
+  text-transform: uppercase;
+  padding: 0.5rem 0rem;
+}
+
+form label {
+  font-family: 'Lato', sans-serif;  
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+
+.container {
+  background-color: #f2f2f2;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  margin-top: 2rem;
+  margin-bottom: 5rem;
+}
+
+.btn-primary {
+  text-transform: uppercase;
+}
+

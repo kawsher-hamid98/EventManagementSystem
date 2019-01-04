@@ -1,0 +1,85 @@
+<div class="container col-8 col-md-6 col-sm-8">
+    <div class="heading-div">
+        <h1 class="text-center heading">Create Event</h1>
+    </div>
+<form #userForm="ngForm" name="form" (ngSubmit)="saveEvent()">
+    <div class="form-row">
+        <div class="form-group col-md-6">
+            <input required #name="ngModel" [class.is-invalid]="name.invalid && name.touched" [(ngModel)]="events.eventName" type="text" class="form-control" name="eventName" placeholder="Event Name">
+            <small class="text-danger" [class.d-none]="name.valid || name.untouched">Event Name is required</small>
+        </div>
+
+        <div class="form-group col-md-6">
+            <input required #organizerName="ngModel" [class.is-invalid]="organizerName.invalid && organizerName.touched" [(ngModel)]="events.organizerName" type="text" class="form-control" name="organizerName" placeholder="Organizer Name">
+            <small class="text-danger" [class.d-none]="organizerName.valid || organizerName.untouched">Organizer Name is required</small>
+        </div>        
+    </div>
+
+    <div class="form-group">
+        <input required #url="ngModel" [class.is-invalid]="url.invalid && url.touched" [(ngModel)]="events.url" type="text" class="form-control" name="url" placeholder="Photo Url">
+        <small class="text-danger" [class.d-none]="url.valid || url.untouched">Photo url is required</small>
+    </div>
+
+    <div class="form-group">
+        <input required #vacancy="ngModel" [class.is-invalid]="vacancy.invalid && vacancy.touched" [(ngModel)]="events.vacancy" type="number" class="form-control" name="vacancy" placeholder="Ticket Vacancy">
+        <small class="text-danger" [class.d-none]="vacancy.valid || vacancy.untouched">Vacancy is required</small>
+    </div>
+
+    <div class="form-row">
+
+    <div class="form-group col-md-6">
+        <input required #address="ngModel" [class.is-invalid]="address.invalid && address.touched" [(ngModel)]="events.eventAddress" type="text" class="form-control" name="eventAddress" placeholder="Event Address">
+        <small class="text-danger" [class.d-none]="address.valid || address.untouched">Event Address is required</small>
+    </div>
+
+    <div class="form-group col-md-6">
+        <input required #date="ngModel" [class.is-invalid]="date.invalid && date.touched" [(ngModel)]="events.date" type="date" class="form-control" name="date">
+        <small class="text-danger" [class.d-none]="date.valid || date.untouched">Date is required</small>
+    </div>
+    </div>
+    <div class="form-row">
+        <div class="form-group col-md-6">
+            <input required #startTime="ngModel" [class.is-invalid]="startTime.invalid && startTime.touched" [(ngModel)]="events.startTime" type="time" class="form-control" name="startTime">
+            <small class="text-danger" [class.d-none]="startTime.valid || startTime.untouched">Time is required</small>
+        </div>
+
+        <div class="form-group col-md-6">
+            <input required #endTime="ngModel" [class.is-invalid]="endTime.invalid && endTime.touched" [(ngModel)]="events.endTime" type="time" class="form-control" name="endTime">
+            <small class="text-danger" [class.d-none]="endTime.valid || endTime.untouched">Time is required</small>
+        </div>        
+
+    </div>
+
+    <div class="form-row">
+        <div class="form-group col-md-6">
+            <select required #category="ngModel" [class.is-invalid]="category.invalid && category.touched" [(ngModel)]="events.category" class="custom-select my-1 mr-sm-2" name="category">
+                    <option value="" disabled selected>---Select category---</option>
+
+            <option *ngFor="let c of categories" >{{c.name}}</option>
+            </select>        
+            <small class="text-danger" [class.d-none]="category.valid || category.untouched">Category is required</small>
+        </div>
+
+        <div class="form-group col-md-6">
+            <select required #country="ngModel" [class.is-invalid]="country.invalid && country.touched" [(ngModel)]="events.country" class="custom-select my-1 mr-sm-2" name="country">
+                    <option value="" disabled selected>---Select coutry---</option>
+
+            <option *ngFor="let c of countries" >{{c.name}}</option>
+            </select>        
+            <small class="text-danger" [class.d-none]="country.valid || country.untouched">Country is required</small>
+        </div>    
+    </div>    
+
+    <div class="form-group">
+        <textarea rows="4" required #organizerDetails="ngModel" placeholder="Organizer details" [class.is-invalid]="organizerDetails.invalid && organizerDetails.touched" [(ngModel)]="events.organizerDetails" type="text" class="form-control" name="organizerDetails"></textarea>
+        <small class="text-danger" [class.d-none]="organizerDetails.valid || organizerDetails.untouched">Organizer Details is required</small>
+    </div>      
+
+
+    <div class="form-group">
+        <textarea required #des="ngModel" [class.is-invalid]="des.invalid && des.touched" [(ngModel)]="events.eventDescription" rows="7" type="area" class="form-control" name="eventDescription" placeholder="Event Description"></textarea>
+        <small class="text-danger" [class.d-none]="des.valid || des.untouched">Description is required</small>
+    </div>
+    <button [disabled]="userForm.form.invalid" type="submit" class="btn btn-primary">Submit Form</button>    
+</form>
+</div> <!-- End of container-->

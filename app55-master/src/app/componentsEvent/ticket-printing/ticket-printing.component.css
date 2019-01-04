@@ -1,0 +1,37 @@
+
+  .form3 {
+    position: fixed;
+    bottom: 240px;
+    left: 500px;
+    border: 7px solid gray; 
+    padding: 10px;
+    color: #B8B8B8;
+}
+.form-control {
+    width: 400px;
+    height: 28px;
+    background: #383838;
+    border: 1px  gray; 
+    border-radius: 0px;
+}
+
+button {
+    border-radius: 0px;
+    height: 39px;
+    position: relative;
+    left: 170px;
+    
+}
+
+#content {
+    position: absolute;
+    left: 400px;
+    top: 200px;
+    border:  2px solid gray;
+   width: 500px;
+    padding: 10px
+}
+
+.left1 {
+    font-family: 'Courier New', Courier, monospace;
+}

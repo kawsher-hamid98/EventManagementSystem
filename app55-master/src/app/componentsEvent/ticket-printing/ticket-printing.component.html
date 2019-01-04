@@ -1,0 +1,13 @@
+
+<h2>Successful</h2>
+<div class="container" *ngIf="event"  id="content" #content>
+
+       <label>Your Email: </label>
+       <input type="text" class="form-control"  [(ngModel)] = "inputText"> 
+       <b style="visibility: hidden">{{inputText}}</b>
+   <p><b>Event Name: </b>{{event.eventName}}</p> 
+   <p><b>Guest Name: </b>{{currentUser}}</p>
+   
+   <p id="myDiv" #myDiv></p>
+   <button (click) = "generatePDF()" class="btn btn-success">Print Ticket</button>
+ </div> 

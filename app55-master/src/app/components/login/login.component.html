@@ -1,0 +1,30 @@
+
+<div class="container col-8 col-sm-6 col-md-5">
+  <div class="jumbotron jumbo">
+    <div class="heading">
+      <h1 class="text-center">Welcome back!</h1>
+    </div>
+
+    <form name="form" (ngSubmit)="login()" class="form-horizontal">
+      <div class="input-group">
+        <div class="input-group-prepend">
+          <span class="input-group-text"><i class="fas fa-user-tie"></i></span>						
+        </div>					
+        <input [(ngModel)]="user.username" type="text" placeholder="Username" class="form-control" name="username">
+      </div>
+
+      <div class="input-group">
+        <div class="input-group-prepend">
+          <span class="input-group-text"><i class="fas fa-unlock-alt"></i></span>
+        </div>
+        <input [(ngModel)]="user.password" type="password" placeholder="Password" class="form-control" name="password">
+      </div>
+      <div *ngIf="error" class="text-danger">Username or password is incorrect</div>
+      <button type="submit" class="btn btn-primary" style="width: 100%; padding: 5px 0">Login</button>
+      
+      <a routerLink = "/register" >Not registered yet?</a>
+
+
+    </form>
+  </div>		
+</div>

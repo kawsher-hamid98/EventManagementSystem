@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700');
+
+
+img {
+    display: block;
+    height: 15rem;
+    width: 100%;
+    float: right
+}
+
+.card {    
+    width: 100%;
+    position: relative;
+    margin-bottom: 1rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+    background-color: #e6e6e6;
+    border-radius: 10px
+}
+
+h3 {
+    background-color: gray;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+    color: white;
+    font-size: 1.4rem;
+    padding: 7px 0;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.card-title {
+    font-size: 1.5rem;
+    color: #808080;
+    font-weight: 400;
+    font-family: 'Lato', sans-serif;
+
+}
+
+.advancedSearchTextbox {
+    width: 100%;
+    height: 2.4rem;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-radius: 0px; 
+    background-color: #bfbfbf;
+    align-content: center
+}
+
+.advancedSearchTextbox:focus {
+    border: none;
+    box-shadow: none;
+    background-color:   #d9d9d9;
+    border-bottom: 2px solid #99ccff;
+  }
+
+  .advancedSearchTextbox::placeholder {
+      color: black;
+      font-size: 1.2rem;
+      text-align: center;
+  }
+
+  h5 {
+      padding: 0.1rem;
+      font-size: 1.3rem;
+      background-color: #808080;
+      width: 9rem
+  }
+
+  .page-config {
+    top: 48rem;
+    left: 40%;
+}
+
+.page-config a {
+    width: 100%;
+    background-color:  #f2f2f2;
+    font-size: 1.5rem;
+    font-weight:400;
+    cursor: pointer;
+    color: #333333;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+}

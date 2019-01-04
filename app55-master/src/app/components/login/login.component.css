@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700');
+
+/* .heading {
+    border-radius: 5px;
+    font-family: 'Lato', sans-serif;
+    font-size: 700;
+    font-size: 2.2rem;
+    background-color: #7D7D7D;
+    color: white;
+    padding: .1rem 3rem ;
+    margin-bottom: 1.5rem;
+    text-transform: uppercase;
+}
+
+h1 {
+	color: white;
+} */
+
+
+.jumbo {	
+	margin-top: 3rem;	
+	position: relative;    
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);    
+}
+
+.input-group {
+	padding: 10px 0;	
+}
+
+.jumbo h1 {	
+	color: rgb(68, 66, 66);
+	font-size: 1.5rem;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+}
+
+.btn-primary {
+    margin-top: 1.6rem;
+    margin-bottom: 1rem;
+}

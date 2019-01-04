@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700');
+
+
+
+.heading {
+  font-family: 'Lato', sans-serif;
+  background-color: #56AB5E;
+  color: white;  
+  padding: .3rem 3rem ;
+  margin-bottom: 1.5rem;
+  text-transform: uppercase;
+}
+
+form label {
+  font-family: 'Lato', sans-serif;  
+  font-weight: 500;
+  font-size: 1.2rem;
+}
+
+.container {
+  background-color: #f2f2f2;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  margin-top: 2rem;
+  margin-bottom: 5rem;
+}
+
+.btn-success {
+  text-transform: uppercase;
+  font-size: 1.1rem;
+  padding: .1 1rem;
+
+}
+
+.btn-primary {
+  text-transform: uppercase;
+  height: 2rem;
+  font-size: 0.9rem;
+  background-color: #ffa31a;
+  border: none;
+  font-weight: 500;
+}
+.btn-primary:hover {
+  background-color: #ffa31a;
+}
+
+
+/* input {
+  height: 2rem;
+  border-top: none;
+  border-right: none;
+  border-left: none; 
+  border-radius: 0px; 
+} */
+
+input:focus {
+  border: none;
+  box-shadow: none;
+  background-color:   #f2f2f2;
+  border-bottom: 2px solid #99ccff;
+}
+
+textarea {
+  height: 4rem;
+}
+
+ select {
+  text-align: center;
+  font-size: 0.9rem;
+  height: 2.1rem
+}
+
+::placeholder {
+  font-size: 1.0rem;
+  color: #999999
+}
+
+hr {
+  background-color:   #d9d9d9;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+
+}

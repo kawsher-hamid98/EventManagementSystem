@@ -1,0 +1,95 @@
+<div class="sp-event">
+    <div class="container col-12 col-md-6 col-sm-8">
+        <div class="heading">
+            <h4 class="text-center">Create Special Event</h4>
+        </div>
+        <form [formGroup]="specialEventForm" (ngSubmit)="onSubmit()">
+          <div class="form-group">
+            <input formControlName="eventName" placeholder="Enter event name" type="text" class="form-control">
+          </div>
+          
+          <div class="form-group">
+              <input formControlName="eventAddress" placeholder="Enter address" type="text" class="form-control">
+          </div>
+          
+          <div class="form-group">
+              <textarea formControlName="eventDescription" placeholder="Enter description" class="form-control" rows="5"></textarea>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group col-sm-6">
+              <select formControlName="category" class="form-control">
+                  <option value="" disabled selected>---Select category---</option>
+                <option class="form-control" *ngFor="let category of categories">{{category.name}}</option>
+              </select>
+            </div>
+            <div class="form-group col-sm-6">
+                <select formControlName="country" class="form-control">
+                    <option value="" disabled selected>---Select country---</option>
+                  <option *ngFor="let country of countries">{{country.name}}</option>
+                </select>
+            </div>
+  
+          </div>
+
+          <div class="form-group">
+              <input formControlName="url" placeholder="Enter picture URL" type="text" class="form-control">
+          </div>
+
+          <div class="form-row">
+            <div class="form-group col-sm-6">
+              <input formControlName="organizerName" placeholder="Enter organizer name" type="text" class="form-control">
+            </div>
+            <div class="form-group col-sm-6">
+              <input formControlName="date" type="date" placeholder="Enter date" class="form-control">
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group col-sm-6">
+              <input formControlName="ticketVacancy" placeholder="Enter vacany" type="number" class="form-control">
+            </div>
+            <div class="form-group col-sm-6">
+              <input formControlName="price" type="number" placeholder="Enter ticket price" class="form-control">
+            </div>
+          </div>
+
+          <hr>
+
+          <button type="button" class="btn btn-primary mt-2 mb-3" (click)="addSubEvent()">Add Sub Event</button>
+
+
+          <div formArrayName="subEvents">
+            <div *ngFor="let event of subEvents.controls; let pointIndex=index" [formGroupName]="pointIndex">
+
+              <div class="form-row">
+                  <div class="form-group col-sm-6">
+                    <input type="text" formControlName="name" placeholder=" Subevent name" class="form-control">
+                  </div>
+      
+                  <div class="form-group col-sm-6">
+                      <input class="form-control" type="number" placeholder="Enter vacancy" formControlName="vacancy">
+                  </div>
+
+                </div>
+
+                <div class="form-row">
+
+                    <div class="form-group col-sm-6">
+                        <input class="form-control" type="time" placeholder="Start time" formControlName="startTime">
+                      </div>
+
+                  <div class="form-group col-sm-6">
+                    <input class="form-control" type="time" placeholder="End time" formControlName="endTime">
+                  </div>
+
+                    </div>
+
+            </div>
+          </div>
+          <button type="submit" class="btn btn-success col-md-6" >Submit</button>
+    
+        </form>
+        
+      </div>
+</div>
