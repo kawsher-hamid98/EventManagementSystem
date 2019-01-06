@@ -1,10 +1,57 @@
 
+
 <div class="example-container mat-elevation-z8">
-  <div class="header text-center"><h4>User List</h4></div>
-  <div class="heading-underline"></div>
-  
+
+  <mat-card class="example-card">  <!--mat card start-->
+
+    <mat-card-title>Add Admin</mat-card-title>
+
+          <mat-card-content>
+            <form class="example-form">
+              <table class="example-full-width" cellspacing="0">
+       
+                <tr>
+                  <td>
+                    <mat-form-field class="example-full-width">
+                    <input matInput placeholder="Username" [(ngModel)]="user1.username" name="username" required>
+                    </mat-form-field>
+                  </td>
+                </tr>
+
+                <tr>
+                    <td>
+                      <mat-form-field class="example-full-width">
+                      <input matInput placeholder="name" [(ngModel)]="user1.name" name="name" required>
+                      </mat-form-field>
+                    </td>
+                  </tr>
+         
+                <tr>
+                <td><mat-form-field class="example-full-width">
+                  <input matInput placeholder="Password" [(ngModel)]="user1.password"type="password" name="password" required>
+                </mat-form-field></td>
+              </tr>
+
+              <tr>
+                  <td><mat-form-field class="example-full-width">
+                    <input matInput placeholder="email" [(ngModel)]="user1.email"type="email" name="email" required>
+                  </mat-form-field></td>
+                </tr>
+              </table>
+            </form>
+            <mat-spinner [style.display]="showSpinner ? 'block' : 'none'"></mat-spinner>
+          </mat-card-content>
+          <mat-card-actions>
+            <button mat-raised-button (click)="register()" color="primary">Add Admin</button>
+          </mat-card-actions>
+
+        </mat-card>  <!--mat card end-->
+    
   <div class="example-header" class=" col-md-4">
     
+
+      <mat-card-title>User List</mat-card-title>
+      <div class="heading-underline"></div>
        <mat-form-field>
          <input matInput (keyup)="applyFilter($event.target.value)" placeholder="Search..">
        </mat-form-field>

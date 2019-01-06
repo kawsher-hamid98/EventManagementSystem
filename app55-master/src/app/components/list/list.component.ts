@@ -4,6 +4,8 @@ import { User } from '../../user';
 import { TokenStorageServiceService } from '../../services/token-storage-service.service';
 import { MatPaginator, MatSort, MatTableDataSource } from '@angular/material';
 import { SelectionModel } from '@angular/cdk/collections';
+import { Router } from '@angular/router';
+import { isNgTemplate } from '@angular/compiler';
 //import {FilterPipePipe} from '../../filter-pipe.pipe';
 
 @Component({
@@ -20,9 +22,11 @@ export class ListComponent implements OnInit {
   user: User[] = []
   data = Object.assign( this.user);
   flashMsg: any;
+  user1: User = new User();
+  error: '';
 
 
-  constructor(private auth: AuthserviceService){
+  constructor(private auth: AuthserviceService, private router: Router){
 
   }
   
@@ -64,5 +68,20 @@ export class ListComponent implements OnInit {
             console.log(err)
           });
   }
+
+  register() {
+    this.auth.admin(this.user1)
+    .subscribe(
+      res => {
+        window.location.reload()
+        console.log(res)
+        // this.router.navigate(['/list'])
+      },
+      err => {
+      console.log(err)
+      }
+    )      
+}
+
 
 }

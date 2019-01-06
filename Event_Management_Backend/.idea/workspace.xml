@@ -1,7 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8389f092-9051-47b6-af06-660addce988a" name="Default Changelist" comment="" />
+    <list default="true" id="bebd5b37-7bf9-4d34-ae25-ab1d9798c8ae" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/EventManagement/MongoConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/EventManagement/MongoConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/EventManagement/controller/GeneralEventController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/EventManagement/controller/GeneralEventController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/EventManagement/model/AmountFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/EventManagement/model/AmountFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/EventManagement/model/FileModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/EventManagement/model/FileModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/EventManagement/model/GeneralEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/EventManagement/model/GeneralEvent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/EventManagement/model/UserSubEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/EventManagement/model/UserSubEvent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/EventManagement/model/saveEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/EventManagement/model/saveEvent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/EventManagement/payment/MVCProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/EventManagement/payment/MVCProperties.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/EventManagement/payment/controller/PaymentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/EventManagement/payment/controller/PaymentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/EventManagement/payment/service/StripeClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/EventManagement/payment/service/StripeClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/EventManagement/repository/AmountFileRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/EventManagement/repository/AmountFileRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/EventManagement/repository/FileRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/EventManagement/repository/FileRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/EventManagement/repository/UserSubEventRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/EventManagement/repository/UserSubEventRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/EventManagement/security/services/UserDetailsServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/EventManagement/security/services/UserDetailsServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/EventManagement/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/EventManagement/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/EventManagement/controller/GeneralEventController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/EventManagement/controller/GeneralEventController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/EventManagement/model/GeneralEvent.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/EventManagement/model/GeneralEvent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/EventManagement/security/services/UserDetailsServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/EventManagement/security/services/UserDetailsServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/EventManagement/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/EventManagement/service/UserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app55-master/src/app/app.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/../app55-master/src/app/app.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app55-master/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../app55-master/src/app/app.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app55-master/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../app55-master/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app55-master/src/app/components/dashboard/dashboard.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/../app55-master/src/app/components/dashboard/dashboard.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app55-master/src/app/components/dashboard/dashboard.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../app55-master/src/app/components/dashboard/dashboard.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app55-master/src/app/components/list/list.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/../app55-master/src/app/components/list/list.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app55-master/src/app/components/list/list.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../app55-master/src/app/components/list/list.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app55-master/src/app/components/list/list.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../app55-master/src/app/components/list/list.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app55-master/src/app/componentsEvent/general-event-details/general-event-details.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../app55-master/src/app/componentsEvent/general-event-details/general-event-details.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app55-master/src/app/componentsEvent/general-event-details/general-event-details.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../app55-master/src/app/componentsEvent/general-event-details/general-event-details.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app55-master/src/app/componentsEvent/general-event/general-event.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/../app55-master/src/app/componentsEvent/general-event/general-event.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app55-master/src/app/componentsEvent/general-event/general-event.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../app55-master/src/app/componentsEvent/general-event/general-event.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app55-master/src/app/componentsSpecialEvent/special-event/special-event.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../app55-master/src/app/componentsSpecialEvent/special-event/special-event.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app55-master/src/app/confirmation/confirmation.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/../app55-master/src/app/confirmation/confirmation.component.css" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,10 +49,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/EventManagement/controller/GeneralEventController.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/EventManagement/controller/TicketController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="29" column="78" selection-start-line="29" selection-start-column="78" selection-end-line="29" selection-end-column="78" />
+            <state relative-caret-position="-345">
+              <caret line="34" selection-start-line="34" selection-end-line="34" />
             </state>
           </provider>
         </entry>
@@ -23,56 +60,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/EventManagement/SpringBootJwtAuthenticationApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="37" column="47" selection-start-line="37" selection-start-column="47" selection-end-line="37" selection-end-column="47" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/EventManagement/model/User.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="17" column="23" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/EventManagement/model/SpecialEvent.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="13" column="25" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/EventManagement/controller/TicketController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2355">
-              <caret line="183" column="32" selection-start-line="183" selection-start-column="32" selection-end-line="183" selection-end-column="32" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/EventManagement/security/services/UserDetailsServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1395">
-              <caret line="119" column="32" selection-start-line="119" selection-start-column="32" selection-end-line="119" selection-end-column="32" />
+            <state relative-caret-position="45">
+              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
             </state>
           </provider>
         </entry>
@@ -80,8 +69,71 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/EventManagement/controller/AuthController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="42" column="34" selection-start-line="42" selection-start-column="34" selection-end-line="42" selection-end-column="34" />
+            <state relative-caret-position="120">
+              <caret line="33" column="13" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/EventManagement/security/jwt/JwtAuthEntryPoint.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/EventManagement/security/jwt/JwtAuthTokenFilter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-168">
+              <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/EventManagement/security/jwt/JwtProvider.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="32">
+              <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/EventManagement/model/saveEvent.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="21" column="62" lean-forward="true" selection-start-line="21" selection-start-column="62" selection-end-line="21" selection-end-column="62" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/EventManagement/model/SpecialEvent.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-14">
+              <caret line="13" column="25" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/EventManagement/controller/SpecialEventController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-435">
+              <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/EventManagement/controller/RestController1.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -95,10 +147,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/main/java/EventManagement/model/SpecialEvent.java" />
-        <option value="$PROJECT_DIR$/src/main/java/EventManagement/controller/TicketController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/EventManagement/security/services/UserDetailsServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/EventManagement/controller/AuthController.java" />
         <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/EventManagement/model/saveEvent.java" />
       </list>
     </option>
   </component>
@@ -113,34 +163,33 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="Event_Management_Backend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringBootJwtAuthentication" type="b2602c69:ProjectViewProjectNode" />
               <item name="Event_Management_Backend" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Event_Management_Backend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringBootJwtAuthentication" type="b2602c69:ProjectViewProjectNode" />
               <item name="Event_Management_Backend" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Event_Management_Backend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringBootJwtAuthentication" type="b2602c69:ProjectViewProjectNode" />
               <item name="Event_Management_Backend" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Event_Management_Backend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringBootJwtAuthentication" type="b2602c69:ProjectViewProjectNode" />
               <item name="Event_Management_Backend" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Event_Management_Backend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringBootJwtAuthentication" type="b2602c69:ProjectViewProjectNode" />
               <item name="Event_Management_Backend" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
@@ -148,7 +197,7 @@
               <item name="EventManagement" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Event_Management_Backend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringBootJwtAuthentication" type="b2602c69:ProjectViewProjectNode" />
               <item name="Event_Management_Backend" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
@@ -157,7 +206,7 @@
               <item name="controller" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Event_Management_Backend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringBootJwtAuthentication" type="b2602c69:ProjectViewProjectNode" />
               <item name="Event_Management_Backend" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
@@ -166,7 +215,7 @@
               <item name="model" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Event_Management_Backend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringBootJwtAuthentication" type="b2602c69:ProjectViewProjectNode" />
               <item name="Event_Management_Backend" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
@@ -175,17 +224,17 @@
               <item name="security" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Event_Management_Backend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringBootJwtAuthentication" type="b2602c69:ProjectViewProjectNode" />
               <item name="Event_Management_Backend" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="EventManagement" type="462c0819:PsiDirectoryNode" />
               <item name="security" type="462c0819:PsiDirectoryNode" />
-              <item name="services" type="462c0819:PsiDirectoryNode" />
+              <item name="jwt" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Event_Management_Backend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringBootJwtAuthentication" type="b2602c69:ProjectViewProjectNode" />
               <item name="Event_Management_Backend" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
@@ -195,6 +244,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -209,6 +259,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="Errors" />
   </component>
   <component name="RunDashboard">
@@ -237,18 +288,18 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="8389f092-9051-47b6-af06-660addce988a" name="Default Changelist" comment="" />
-      <created>1546590243997</created>
+      <changelist id="bebd5b37-7bf9-4d34-ae25-ab1d9798c8ae" name="Default Changelist" comment="" />
+      <created>1546718442258</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1546590243997</updated>
-      <workItem from="1546590252043" duration="3681000" />
-      <workItem from="1546611482575" duration="1566000" />
+      <updated>1546718442258</updated>
+      <workItem from="1546718444096" duration="263000" />
+      <workItem from="1546745616045" duration="2301000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5247000" />
+    <option name="totallyTimeSpent" value="2564000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
@@ -264,7 +315,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32850242" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.29146537" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -293,62 +344,80 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/EventManagement/controller/GeneralEventController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="29" column="78" selection-start-line="29" selection-start-column="78" selection-end-line="29" selection-end-column="78" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/EventManagement/SpringBootJwtAuthenticationApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="37" column="47" selection-start-line="37" selection-start-column="47" selection-end-line="37" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/EventManagement/model/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="17" column="23" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/EventManagement/controller/TicketController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2355">
-          <caret line="183" column="32" selection-start-line="183" selection-start-column="32" selection-end-line="183" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/EventManagement/security/services/UserDetailsServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1395">
-          <caret line="119" column="32" selection-start-line="119" selection-start-column="32" selection-end-line="119" selection-end-column="32" />
+        <state relative-caret-position="210">
+          <caret line="29" column="82" selection-start-line="29" selection-start-column="82" selection-end-line="29" selection-end-column="82" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/EventManagement/controller/AuthController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="42" column="34" selection-start-line="42" selection-start-column="34" selection-end-line="42" selection-end-column="34" />
+        <state relative-caret-position="120">
+          <caret line="33" column="13" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/EventManagement/security/jwt/JwtAuthEntryPoint.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/EventManagement/security/jwt/JwtAuthTokenFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-168">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/EventManagement/security/jwt/JwtProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/EventManagement/controller/TicketController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-345">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/EventManagement/controller/RestController1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/EventManagement/controller/SpecialEventController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-435">
+          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/EventManagement/model/saveEvent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="21" column="62" lean-forward="true" selection-start-line="21" selection-start-column="62" selection-end-line="21" selection-end-column="62" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/EventManagement/model/SpecialEvent.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
+        <state relative-caret-position="-14">
           <caret line="13" column="25" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+        <state relative-caret-position="45">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>

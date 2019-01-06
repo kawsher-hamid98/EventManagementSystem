@@ -14,4 +14,5 @@ public interface UserService {
     void createUser(SignUpForm signUpForm);
     void createAdmin(SignUpForm signUpForm);
     void makePdf(String username, String eventId, List<SubEvent> subEvents) throws FileNotFoundException, DocumentException;
+    void makePdfForFreeEvent(String username, String eventId) throws DocumentException, FileNotFoundException;
 }

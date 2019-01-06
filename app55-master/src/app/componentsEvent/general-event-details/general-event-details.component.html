@@ -14,9 +14,7 @@
         <h3>Remaining Ticket {{event.vacancy}}</h3>   
         <button routerLink="/login" *ngIf="!tokenStorageService.loggedIn()" class="btn btn-primary" type="button">Login To Get Ticket</button>   
         <button (click)="sendTicket()" *ngIf="tokenStorageService.loggedIn()" class="btn btn-primary" type="button">Get Free Ticket</button>
-        <div *ngIf="successMsg">
-          <p>Thank you, check youe email!</p>
-        </div>
+        <p class="text-danger text-center" *ngIf="error">Username or Email already exists</p>    
       </div>
     </div> <!--End of 1st row section-->
   

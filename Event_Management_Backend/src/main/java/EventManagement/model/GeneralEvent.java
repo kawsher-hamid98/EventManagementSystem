@@ -23,9 +23,11 @@ public class GeneralEvent {
     private String eventDescription;
     private String url;
     private String organizerName;
+    private String organizerDetails;
     private String date;
     private String startTime;
     private String endTime;
     private String country;
     private String category;
+    private int vacancy;
 }

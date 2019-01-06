@@ -33,7 +33,6 @@
                 <th>Event Name</th>
                 <th>Start Time</th>
                 <th>End Time</th>
-                <th>Vacancy</th>
                 <th>select..</th>
               </tr>
             </thead>
@@ -42,7 +41,6 @@
                 <td>{{subEvent.name}}</td>
                 <td>{{subEvent.startTime}}</td>
                 <td>{{subEvent.endTime}}</td>
-                <td>{{subEvent.vacancy}}</td>
                 <td> <input [disabled]="isCouponAvailable" type="checkbox"
                   [ngModelOptions]="{standalone: true}"
                   [(ngModel)]="subEvent.selected"/></td>
@@ -51,7 +49,7 @@
             </tbody>
           </table>
           <div>
-            <small *ngIf="error"  class="text-danger">Time conflict, Please check another</small>
+            <small *ngIf="error" style="font-size:1rem" class="text-danger">Time conflict, Please check another</small>
           </div>
   
           <div *ngIf="isVacant">

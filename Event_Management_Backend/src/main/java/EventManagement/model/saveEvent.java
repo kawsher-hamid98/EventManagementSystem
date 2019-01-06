@@ -18,6 +18,6 @@ public class saveEvent {
     private String id;
     private String eventId;
     private String username;
-    private Set<User> user = new HashSet<>();
+   // private Set<User> user = new HashSet<>();
     private Set<SpecialEvent> specialEvents = new HashSet<>();
 }

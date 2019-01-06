@@ -34,6 +34,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ConfirmationComponent } from './confirmation/confirmation.component';
 import * as Material from "@angular/material";
 import { DatePipe } from '@angular/common';
+import { MatCardModule } from '@angular/material';
+import { MatProgressSpinnerModule } from '@angular/material';
 
 @NgModule({
   declarations: [
@@ -84,6 +86,8 @@ import { DatePipe } from '@angular/common';
     Material.MatIconModule,
     Material.MatPaginatorModule,
     Material.MatSortModule,
+    MatCardModule,
+    MatProgressSpinnerModule
   ],
 
   exports:[
@@ -103,6 +107,8 @@ import { DatePipe } from '@angular/common';
     Material.MatIconModule,
     Material.MatPaginatorModule,
     Material.MatSortModule,
+    MatCardModule,
+    MatProgressSpinnerModule
   ],
 
   providers: [AuthserviceService,DatePipe,PageServiceService,AuthGuard,TokenStorageServiceService,{

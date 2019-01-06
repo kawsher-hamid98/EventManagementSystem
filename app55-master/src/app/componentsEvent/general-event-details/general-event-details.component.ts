@@ -14,7 +14,7 @@ export class GeneralEventDetailsComponent implements OnInit {
   event: GeneralEvent;
   userName: string;
   successMsg: '';
-  errorMsg: '';
+  error: '';
 
   constructor(private eventService: GeneralEventServiceService, 
               private activatedRoute: ActivatedRoute,
@@ -33,10 +33,10 @@ export class GeneralEventDetailsComponent implements OnInit {
     this.eventService.sendTicketViaEmail(this.userName, id)
         .subscribe(
           response => {
-            this.successMsg = response
+            this.router.navigate(['/confirmation'])
             console.log("Success", response)
           }, error => {
-            this.errorMsg = error
+            this.error = error
             console.log("Failed", error)
           }
         )
